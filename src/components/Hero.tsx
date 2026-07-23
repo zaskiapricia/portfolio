@@ -64,7 +64,7 @@ export default function Hero() {
                 <ArrowDown size={18} className="group-hover:translate-y-0.5 transition-transform" />
               </button>
               <a
-                href="/resume.pdf"
+                href="/CV_ZaskiaApricia.pdf"
                 download
                 className="group inline-flex items-center gap-2 bg-[#DEFA70] text-black px-7 py-3.5 rounded-full font-bold text-sm hover:bg-white transition-colors duration-300"
               >
