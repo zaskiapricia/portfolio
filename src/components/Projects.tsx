@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion';
+
 import dignitionImg from '@/assets/images/projects/Dignition.png';
 import pungutYukImg from '@/assets/images/projects/PungutYuk.png';
+import linkAjaImg from '@/assets/images/projects/LinkAja.png';
+import splitBillImg from '@/assets/images/projects/GroupFoodOrdering.png';
 import sunityImg from '@/assets/images/projects/Sunity.png';
+
 import { ArrowUpRight } from 'lucide-react';
 
 type Project = {
@@ -28,6 +32,22 @@ const projects: Project[] = [
       'Led the end-to-end UI/UX design of a community-driven waste management mobile application, guiding the team through user research, design thinking, prototyping, and usability testing to create an engaging and user-centered experience.',
     badges: ['Team Lead', 'UI/UX Design', 'Mobile App'],
     image: pungutYukImg,
+  },
+  {
+    title: 'LinkAja Redesign',
+    subtitle: 'Mobile App Redesign Case Study',
+    description:
+      'Redesigned the LinkAja mobile application by identifying usability issues and improving key user flows, creating a more intuitive and user-centered payment experience.',
+    badges: ['Case Study', 'UI/UX Design', 'Mobile App'],
+    image: linkAjaImg,
+  },
+  {
+    title: 'Group Food Ordering',
+    subtitle: 'Expense Sharing Mobile Application',
+    description:
+      'Designed a mobile application that streamlines group food ordering with automatic bill splitting, QR-based session sharing, and individual payment flows, creating a more efficient and user-friendly dining experience.',
+    badges: ['UI/UX Design', 'Journal Publication', 'Mobile App'],
+    image: splitBillImg,
   },
   {
     title: 'Sunity',
