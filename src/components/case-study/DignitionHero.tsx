@@ -21,7 +21,7 @@ export default function DignitionHero() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] as const }}
         >
           <span className="inline-block bg-[#DEFA70] text-black px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
-            Case Study
+            Product Case Study
           </span>
 
           <h1 className="font-anton text-white text-6xl sm:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-wide">
@@ -29,8 +29,20 @@ export default function DignitionHero() {
           </h1>
 
           <p className="mt-5 text-white/90 text-lg sm:text-xl lg:text-2xl font-light max-w-2xl">
-            Digital Learning Solution for Veterantech Study Club
+            Digital Learning Solution for VeteranTech Study Club
           </p>
+
+
+          {/* Live Website Button */}
+          <a
+            href="https://dignition.veterantech.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-8 bg-[#DEFA70] text-black px-6 py-3 rounded-full font-semibold text-sm hover:opacity-80 transition-opacity"
+          >
+            Visit Live Website ↗
+          </a>
+
         </motion.div>
 
 
