@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
+
 import dignitionImg from '@/assets/images/projects/Dignition.png';
 
 const metadata = [
@@ -29,7 +31,7 @@ export default function DignitionHero() {
           </h1>
 
           <p className="mt-5 text-white/90 text-lg sm:text-xl lg:text-2xl font-light max-w-2xl">
-            Digital Learning Solution for VeteranTech Study Club
+            Digital Learning Solution for Veterantech Study Club
           </p>
 
 
@@ -40,7 +42,8 @@ export default function DignitionHero() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-8 bg-[#DEFA70] text-black px-6 py-3 rounded-full font-semibold text-sm hover:opacity-80 transition-opacity"
           >
-            Visit Live Website ↗
+            Visit Live Website
+            <ExternalLink size={16} />
           </a>
 
         </motion.div>

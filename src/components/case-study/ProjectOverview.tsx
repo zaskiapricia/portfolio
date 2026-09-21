@@ -11,7 +11,7 @@ export default function ProjectOverview() {
           <div className="space-y-5 text-black/70 text-base sm:text-lg leading-relaxed">
             <p>
               Dignition is an internal Learning Management System designed to support academic
-              activities within VeteranTech Study Club.
+              activities within Veterantech Study Club.
             </p>
             <p>
               The platform helps mentors and mentees manage learning activities, materials,
